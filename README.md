@@ -1,6 +1,6 @@
 ## Catalog Service Documentation
 ### Overview
-The Catalog Service is a microservice architecture project designed to handle catalog products. It's likely part of a larger e-commerce or inventory management system, providing functionality for managing products in a catalog, including creating, updating, retrieving, and deleting products.
+The Catalog Service is a microservice architecture project designed to handle catalog products. It's part of a larger e-commerce or inventory management system, providing functionality for managing products in a catalog, including creating, updating, retrieving, and deleting products.
 
 ### Technology Stack
 
@@ -85,21 +85,21 @@ README.md: Provides an overview of the project, setup instructions, and other re
 
 Best Practices Observed
 
-*Separation of Concerns*: The project structure clearly separates different aspects of the application (services, repositories, models, etc.).
-*Dependency Injection*: The use of interfaces suggests a dependency injection pattern, allowing for easier testing and flexibility.
-*Testing*: The presence of test files indicates a focus on maintaining code quality through unit testing.
-*Mocking*: The mock repository allows for isolated testing of the service layer without relying on actual data persistence.
-*Validation*: The requestValidator.ts file suggests that input validation is being performed, enhancing security and data integrity.
-*Logging*: A dedicated logging utility is implemented, which is crucial for monitoring and debugging in a microservices architecture.
+**Separation of Concerns**: The project structure clearly separates different aspects of the application (services, repositories, models, etc.).
+**Dependency Injection**: The use of interfaces suggests a dependency injection pattern, allowing for easier testing and flexibility.
+**Testing**: The presence of test files indicates a focus on maintaining code quality through unit testing.
+**Mocking**: The mock repository allows for isolated testing of the service layer without relying on actual data persistence.
+**Validation**: The requestValidator.ts file suggests that input validation is being performed, enhancing security and data integrity.
+**Logging**: A dedicated logging utility is implemented, which is crucial for monitoring and debugging in a microservices architecture.
 
 ### Potential Improvements
 
-*API Documentation*: Consider adding API documentation using tools like Swagger or OpenAPI.
-*Containerization*: Adding Dockerfile and docker-compose files would make deployment and scaling easier.
-*CI/CD Configuration*: Implement continuous integration and deployment pipelines.
-*Environment Configuration*: Add environment-specific configuration files for different deployment scenarios.
-*Error Handling*: Implement a centralized error handling mechanism if not already present.
+**API Documentation**: Consider adding API documentation using tools like Swagger or OpenAPI.
+**Containerization**: Adding Dockerfile and docker-compose files would make deployment and scaling easier.
+**CI/CD Configuration**: Implement continuous integration and deployment pipelines.
+**Environment Configuration**: Add environment-specific configuration files for different deployment scenarios.
+**Error Handling**: Implement a centralized error handling mechanism if not already present.
 
 ### Conclusion
 
-The Catalog Service appears to be a well-structured microservice following many best practices in software development. Its modular design should allow for easy maintenance, testing, and scalability as the project grows.
+The Catalog Service is a well-structured microservice following many best practices in software development. Its modular design should allow for easy maintenance, testing, and scalability as the project grows.
