@@ -12,7 +12,8 @@ Mock Data Generation: Faker.js
 
 ### Project Structure
 
-Copycatalog_service/
+```
+catalog_service/
 ├── src/
 │   ├── services/
 │   │   ├── test/
@@ -35,6 +36,7 @@ Copycatalog_service/
 │   └── expressApp.ts
 ├── tsconfig.json
 └── README.md
+
 ### Component Descriptions
 
 1. Services
