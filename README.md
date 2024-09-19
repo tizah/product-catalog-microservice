@@ -37,6 +37,8 @@ catalog_service/
 ├── tsconfig.json
 └── README.md
 
+```
+
 ### Component Descriptions
 
 1. Services
